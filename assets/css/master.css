@@ -1,0 +1,17 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 300px;
+}
+
+.grid-item {
+  height: 100px;
+  width: 100px;
+  border-radius: 4px;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 35px;
+}
